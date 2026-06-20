@@ -13,39 +13,32 @@ Keep this short. Store only stable facts and decisions that future Codex session
 
 ## Learning Goal
 
-Become a builder who can ship small AI products while understanding:
+Build a small real project while understanding:
 
 - product decisions
-- full-stack architecture
-- UI/UX basics
+- architecture
+- UI/UX
 - testing
 - security
 - deployment
 - logging and operations
-- AI reliability, evals, and cost control
+- AI reliability and cost control, if AI is used
 
-## Default Product Sequence
+## Current Build Sequence
 
-1. Static page on domain
-2. Notes CRUD
-3. Login
-4. Database persistence
-5. Deployment notes
-6. Basic tests
-7. Logging
-8. Backup
-9. AI summary
-10. AI question-answering over notes
-11. Search or retrieval
-12. Cost limits
-13. Security review
+Use this section to define the project-specific order.
+
+1.
+2.
+3.
+4.
+5.
 
 ## Stack Decisions
 
 - Frontend:
 - Backend:
-- Database:
-- ORM:
+- Database/storage:
 - Auth:
 - AI provider:
 - Deployment:
