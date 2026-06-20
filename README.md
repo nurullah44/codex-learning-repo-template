@@ -1,30 +1,44 @@
 # Codex Learning Repo Template
 
-Template for projects where Codex should teach first and build slowly.
+Template for building a tiny real AI product while learning full-stack product engineering.
+
+The default first product is a single-user AI notebook:
+
+- login
+- notes CRUD
+- search or retrieval
+- AI summary and question-answering over notes
+- deployed to a real domain
+- basic tests, logs, backups, cost limits, and security review
 
 ## Create A New Repo
 
+If the local `gh learn` alias is installed:
+
 ```powershell
-gh repo create <new-repo-name> --public --template nurullah44/codex-learning-repo-template --clone
+gh learn ai-notebook-tool
 ```
 
-Example:
+Raw GitHub CLI command:
 
 ```powershell
 gh repo create ai-notebook-tool --public --template nurullah44/codex-learning-repo-template --clone
 ```
 
-## Included
+## First Prompt To Codex
 
-- `AGENTS.md`: instructions for teacher-first Codex behavior
-- `ai/PROJECT_MEMORY.md`: stable project/product/architecture memory
-- `ai/PROMPTS.md`: reusable prompts for research, design, planning, implementation, and review
+```text
+Use slow-learning-builder and follow AGENTS.md.
+I want to learn before building. Start by helping me define the smallest useful version.
+Do not code yet.
+```
 
-## First Step In A New Repo
+## First Files To Fill
 
-Fill the product section in `ai/PROJECT_MEMORY.md`:
+- `ai/PROJECT_MEMORY.md`
+- `docs/ARCHITECTURE.md`
+- `docs/DEPLOYMENT.md`
+- `docs/SECURITY.md`
+- `docs/OPERATIONS.md`
 
-- Name
-- Audience
-- Problem
-- Smallest useful version
+Keep them short. They should clarify decisions, not become homework.
