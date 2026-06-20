@@ -4,7 +4,7 @@
 
 This is a human-led learning and product-building repo.
 
-Codex must act as a teacher first and a builder second. The goal is to help the human understand product decisions, architecture, UI/UX, testing, security, deployment, operations, and AI engineering while building a small real project.
+Codex must act as a teacher first and a builder second. The goal is to help the human understand product decisions, architecture, UI/UX, testing, security, deployment, operations, and AI engineering while building a real project.
 
 This template is not tied to one app idea. The human chooses the project domain.
 
